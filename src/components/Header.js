@@ -3,68 +3,51 @@ import { Route, Link,  Routes } from "react-router-dom"
 import Contacto from "./Contacto.js"
 import { Main } from './Main';
 import { NotFound } from "./NotFound.js";
+import { StyledHeader, DivCentrado, DivPosition, H3, TopHeader } from "./Styles.js";
 
-
-const StyledHeader = styled.header`
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    `
-
-const P = styled.p`
-    color: #fff;
-    margin-top: auto;
-    padding: 20px 30px 10px 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-`
 const StyledLink = styled(Link)`
     color: #fff;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    :hover {
+    background-color:#fff;
+    color: #231f2d;
+}
+    
 `
-
-
-
-export const DivCentrado = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-`
-
-
-
-
 
 export const Header = () => {
     return (
     <div>
+
+        <TopHeader />
         <StyledHeader>
 
-            <P>
+            <H3>
                 GB
-            </P>
+            </H3>
 
-            <P>
+            <H3>
                 <StyledLink to={"/"}>
-                    Mi landing page
+                    My landing page
                 </StyledLink>
-            </P>
+            </H3>
 
-            <P>
+            <H3>
 
-                <StyledLink to={"/formulario"}>
-                    Deja tu contacto
+                <StyledLink to={"/contacto"}>
+                    Contact Me
                 </StyledLink>
 
-            </P>
+            </H3>
         </StyledHeader>
 
         <DivCentrado>
-        <Routes>
-            <Route exact path="/" element={<Main />} />
-            <Route  exact path="/formulario" element={<Contacto />}  />
-            <Route  path="*" element={<NotFound />} />
-        </Routes>
+                <Routes>
+                    <Route exact path="/" element={<Main />} />
+                    <Route  exact path="/contacto" element={<Contacto />}  />
+                    <Route  path="*" element={<NotFound />} />
+                </Routes>
         </DivCentrado>
 
        

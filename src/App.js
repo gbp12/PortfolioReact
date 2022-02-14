@@ -1,12 +1,25 @@
 import './App.css';
-import {Header, DivCentrado} from './components/Header';
+import {Header} from './components/Header';
+import { Skills } from './components/Skills';
+import { DivSecond, H1, H2 } from './components/Styles';
 
-function App() {
+
+
+
+
+
+
+const App = () => {
   return (
    <div>
-    <Header>  </Header>
+    <Header />
 
 
+    <DivSecond>
+      <H1>I´m specialised in</H1>
+      <Skills />
+      <H2>Some of my projects</H2>
+    </DivSecond>
     
 
    </div>
