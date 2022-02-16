@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { Route, Link,  Routes } from "react-router-dom"
 import Contacto from "./Contacto.js"
 import { Main } from './Main';
-import { NotFound } from "./NotFound.js";
+//import { NotFound } from "./NotFound.js";
 import { StyledHeader, DivCentrado, H3, TopHeader } from "./Styles.js";
 
 const StyledLink = styled(Link)`
