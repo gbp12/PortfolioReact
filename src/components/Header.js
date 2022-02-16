@@ -29,7 +29,7 @@ export const Header = () => {
             </H3>
 
             <H3>
-                <StyledLink to={"/PortfolioReact/"}>
+                <StyledLink to={"/"}>
                     My landing page
                 </StyledLink>
             </H3>
