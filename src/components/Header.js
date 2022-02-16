@@ -45,9 +45,9 @@ export const Header = () => {
 
         <DivCentrado>
                 <Routes>
-                    <Route exact path="/PortfolioReact/" element={<Main />} />
+                    <Route  path="*" element={<Main />} />  
                     <Route  exact path="/contacto" element={<Contacto />}  />
-                    <Route  path="*" element={<NotFound />} />
+                    
                 </Routes>
         </DivCentrado>
 
