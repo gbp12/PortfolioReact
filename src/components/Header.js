@@ -29,7 +29,7 @@ export const Header = () => {
             </H3>
 
             <H3>
-                <StyledLink to={"/PortfolioReact"}>
+                <StyledLink to={"/PortfolioReact/"}>
                     My landing page
                 </StyledLink>
             </H3>
@@ -45,7 +45,7 @@ export const Header = () => {
 
         <DivCentrado>
                 <Routes>
-                    <Route exact path="/PortfolioReact" element={<Main />} />
+                    <Route exact path="/PortfolioReact/" element={<Main />} />
                     <Route  exact path="/contacto" element={<Contacto />}  />
                     <Route  path="*" element={<NotFound />} />
                 </Routes>
