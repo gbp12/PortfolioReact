@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gbp12/PortfolioReact/static/css/main.e6c13ad2.css",
-    "main.js": "/gbp12/PortfolioReact/static/js/main.6d99224f.js",
-    "static/js/787.dbbd0357.chunk.js": "/gbp12/PortfolioReact/static/js/787.dbbd0357.chunk.js",
-    "index.html": "/gbp12/PortfolioReact/index.html",
-    "main.e6c13ad2.css.map": "/gbp12/PortfolioReact/static/css/main.e6c13ad2.css.map",
-    "main.6d99224f.js.map": "/gbp12/PortfolioReact/static/js/main.6d99224f.js.map",
-    "787.dbbd0357.chunk.js.map": "/gbp12/PortfolioReact/static/js/787.dbbd0357.chunk.js.map"
+    "main.css": "/PortfolioReact/static/css/main.82279959.css",
+    "main.js": "/PortfolioReact/static/js/main.0487b9ae.js",
+    "static/js/787.dbbd0357.chunk.js": "/PortfolioReact/static/js/787.dbbd0357.chunk.js",
+    "index.html": "/PortfolioReact/index.html",
+    "main.82279959.css.map": "/PortfolioReact/static/css/main.82279959.css.map",
+    "main.0487b9ae.js.map": "/PortfolioReact/static/js/main.0487b9ae.js.map",
+    "787.dbbd0357.chunk.js.map": "/PortfolioReact/static/js/787.dbbd0357.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.6d99224f.js"
+    "static/css/main.82279959.css",
+    "static/js/main.0487b9ae.js"
   ]
 }
