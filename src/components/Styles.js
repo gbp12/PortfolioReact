@@ -2,13 +2,15 @@ import styled from "styled-components"
 
 
 
-
 export const DivSecond = styled.div`
 margin-top: 30vh;
 display: flex;
 align-items: center;
 flex-direction: column;
 width: 100%;
+@media only screen and (max-width: 600px) {
+    margin-top: 10vh;
+    }
 `
 
 export const H1 = styled.h1`
@@ -40,6 +42,9 @@ export const H3 = styled.h3`
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     @media only screen and (max-width: 500px) {
         font-size: 10px;
+    }
+    @media only screen and (max-width: 366px) {
+        padding: 20px 20px 10px 20px;
     }`
 
 export const HMain = styled(H3)`
@@ -54,8 +59,8 @@ export const HMain = styled(H3)`
 export const P = styled.p`
     color:#4b4656;
     font-size: 20px;
-    padding-right: 50px;
     padding-left: 30px;
+    padding-right: 15px;
     @media only screen and (max-width: 600px) {
     font-size: 15px;
     }
@@ -63,7 +68,9 @@ export const P = styled.p`
 
 export const P2 = styled(P)`
         text-align: center;
-
+        padding-left: 0px;
+        padding-right: 0px;
+       
 `
 
 
@@ -79,28 +86,23 @@ export const DivContact = styled(Div)`
 
 export const Img = styled.img`
     width: 100px;
-    flex-direction: row;
     @media only screen and (max-width: 600px) {
       width: 50px;
 }`
 
 export const ImgContact = styled(Img)`
     padding-top: 5px;
-    box-sizing: border-box;
+    
     border: #4b4656 3px none;
     :hover{
-        cursor: pointer;
-        border-style: solid;
-        
-
-    }
-`
+        cursor: pointer;}`
 
 export const Rotation = styled(Img)`
     animation-name: rotation;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+    animation-duration: 8s;
 
 
     @keyframes rotation {
@@ -137,3 +139,4 @@ export const DivCentrado = styled.div`
 export const TopHeader = styled.div`
     background-color: #231f2d;
     height: 25px;`
+

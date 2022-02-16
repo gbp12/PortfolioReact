@@ -3,7 +3,7 @@ import { Route, Link,  Routes } from "react-router-dom"
 import Contacto from "./Contacto.js"
 import { Main } from './Main';
 import { NotFound } from "./NotFound.js";
-import { StyledHeader, DivCentrado, DivPosition, H3, TopHeader } from "./Styles.js";
+import { StyledHeader, DivCentrado, H3, TopHeader } from "./Styles.js";
 
 const StyledLink = styled(Link)`
     color: #fff;
@@ -22,9 +22,10 @@ export const Header = () => {
 
         <TopHeader />
         <StyledHeader>
+            
 
             <H3>
-                GB
+                Gonzalo Bonilla
             </H3>
 
             <H3>

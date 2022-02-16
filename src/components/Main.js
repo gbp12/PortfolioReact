@@ -14,7 +14,7 @@ export const Main = ()=> {
 
             <P>
                 I´m a curius person who want´s to learn constantly, this is why im looking for 
-                a job which allow me to improve in my skills, with coding challenges.
+                a job which allow me to improve my skills, with coding challenges.
             </P>
 
             <P>
