@@ -56,9 +56,9 @@ const Contacto = () => {
             <DivContact>
 
 
-                <ImgContact src="/images/gmail logo.png" onClick={() => {Aparition(mail)}}/> 
+                <ImgContact src="https://1000marcas.net/wp-content/uploads/2019/11/logo-Gmail-1.png" onClick={() => {Aparition(mail)}}/> 
 
-                <ImgContact src="/images/discord logo.png" onClick={() => {Aparition(discord)}} />
+                <ImgContact src="https://logos-marcas.com/wp-content/uploads/2020/12/Discord-Logo.png" onClick={() => {Aparition(discord)}} />
                 
             </DivContact>
             <P2>
@@ -66,8 +66,8 @@ const Contacto = () => {
             </P2>
             <DivContact>
                 
-                <a target="blank"  href="https://github.com/gbp12"><ImgContact src="/images/github logo.png"  /> </a>
-                <ImgContact src="/images/mobile logo.png" onClick={() => {Aparition(tlf)}} /> 
+                <a target="blank"  href="https://github.com/gbp12"><ImgContact src="https://cdn-icons-png.flaticon.com/512/25/25231.png"  /> </a>
+                <ImgContact src="https://i.pinimg.com/originals/20/27/3c/20273cfda041b47e89e057a4c2296928.png" onClick={() => {Aparition(tlf)}} /> 
                 
 
             </DivContact>

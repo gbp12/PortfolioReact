@@ -42,9 +42,7 @@ export const H3 = styled.h3`
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     @media only screen and (max-width: 500px) {
         font-size: 10px;
-    }
-    @media only screen and (max-width: 366px) {
-        padding: 20px 20px 10px 20px;
+        padding: 10px 10px 10px 10px;
     }`
 
 export const HMain = styled(H3)`
@@ -85,7 +83,7 @@ export const DivContact = styled(Div)`
 
 
 export const Img = styled.img`
-    width: 100px;
+    width: 75px;
     @media only screen and (max-width: 600px) {
       width: 50px;
 }`
@@ -103,7 +101,7 @@ export const Rotation = styled(Img)`
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
     animation-duration: 8s;
-
+    width: 150px;
 
     @keyframes rotation {
     0% {
