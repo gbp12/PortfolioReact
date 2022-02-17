@@ -1,7 +1,7 @@
-import {ImgContact, DivContact, P2 } from "./Styles"
+import {ImgContact, DivContact, P2 } from "../components/Styles"
 import { useState} from "react";
 import styled from "styled-components";
-import 'animate.css';
+
 
 
 var mail = "Mail me at gonzalobonilla2709@gmail.com"
@@ -19,7 +19,6 @@ margin: auto;
 
 const Contacto = () => {
     const [valor, setValor] = useState("")
-    console.log(valor)
     
     const Aparition = (tipo) => {
         if (valor === tipo) {
@@ -73,7 +72,7 @@ const Contacto = () => {
             </DivContact>
 
             <Div>
-                <P2 className="animate__animated animate__fadeInDown animate__delay-1s">
+                <P2>
                     {valor}
                 </P2>
             </Div>
