@@ -4,7 +4,7 @@ export const Projects = () => {
 	return (
 		<div>
 			<P2>My ecomerce</P2>
-			<a href="#">
+			<a target="_blank" href="https://gbp12.github.io/ecommerce/">
 				<ProjectImg src={ecomerce} />
 			</a>
 		</div>
