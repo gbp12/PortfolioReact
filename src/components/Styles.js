@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import "animate.css"
 
 export const DivSecond = styled.div`
 	margin-top: 30vh;
@@ -90,7 +91,6 @@ export const Img = styled.img`
 export const ImgContact = styled(Img)`
 	padding-top: 5px;
 
-	border: #4b4656 3px none;
 	:hover {
 		cursor: pointer;
 	}
@@ -140,4 +140,9 @@ export const DivCentrado = styled.div`
 export const TopHeader = styled.div`
 	background-color: #231f2d;
 	height: 25px;
+`
+
+export const ProjectImg = styled.img`
+	width: 500px;
+	border: 5px solid #4b4656;
 `

@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import { Link, Outlet } from "react-router-dom"
-//import { NotFound } from "./NotFound.js";
 import { StyledHeader, DivCentrado, H3, TopHeader } from "./Styles.js"
 import { Skills } from "./Skills"
 import { DivSecond, H1, H2 } from "./Styles"
