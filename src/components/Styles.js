@@ -81,7 +81,7 @@ export const DivContact = styled(Div)`
 `
 
 export const Img = styled.img`
-	width: 75px;
+	width: 80px;
 	@media only screen and (max-width: 600px) {
 		width: 50px;
 		height: 50px;
@@ -145,4 +145,10 @@ export const TopHeader = styled.div`
 export const ProjectImg = styled.img`
 	width: 500px;
 	border: 5px solid #4b4656;
+
+	align-items: center;
+	@media only screen and (max-width: 500px) {
+		width: 80%;
+		margin-left: 10%;
+	}
 `
