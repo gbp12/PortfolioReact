@@ -81,7 +81,7 @@ export const DivContact = styled(Div)`
 `
 
 export const Img = styled.img`
-	width: 80px;
+	width: 90px;
 	@media only screen and (max-width: 600px) {
 		width: 50px;
 		height: 50px;
@@ -106,7 +106,7 @@ export const Rotation = styled(Img)`
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	animation-duration: 8s;
-	width: 150px;
+	width: 160px;
 
 	@keyframes rotation {
 		0% {
@@ -145,6 +145,10 @@ export const TopHeader = styled.div`
 export const ProjectImg = styled.img`
 	width: 500px;
 	border: 5px solid #4b4656;
+	:hover {
+		transition: transform .2s linear;
+        transform:scale(1.15);
+	}
 
 	align-items: center;
 	@media only screen and (max-width: 500px) {

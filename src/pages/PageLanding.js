@@ -7,13 +7,12 @@ export const Main = () => {
 
       <P>
         I have been learning and improving my programming and front-end skills
-        for over 2 years, and it continues till this day.
+        for over 3 years, and it continues till this day.
       </P>
 
       <P>
         I´m a curius person who want´s to learn constantly, this is why im
-        looking for a job which allow me to improve my skills, with coding
-        challenges.
+        interested in challenges.
       </P>
 
       <P>
