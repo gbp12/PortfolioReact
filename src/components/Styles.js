@@ -139,15 +139,15 @@ export const DivCentrado = styled.div`
 
 export const TopHeader = styled.div`
 	background-color: #231f2d;
-	height: 25px;
+	height: 1vh;
 `
 
 export const ProjectImg = styled.img`
 	width: 500px;
 	border: 5px solid #4b4656;
 	:hover {
-		transition: transform .2s linear;
-        transform:scale(1.15);
+		transition: transform 0.2s linear;
+		transform: scale(1.15);
 	}
 
 	align-items: center;
