@@ -13,8 +13,8 @@ export const DivSecond = styled.div`
 `
 
 export const H1 = styled.h1`
-	background-color: #4b4656;
-	color: #fff;
+	background-color: ${(props) => (props.titulo ? "#fff" : "#4b4656")};
+	color: ${(props) => (props.titulo ? "#4b4656" : "#fff")};
 	width: 55%;
 	text-align: center;
 	border-radius: 25px;
@@ -58,9 +58,15 @@ export const P = styled.p`
 	color: #4b4656;
 	font-size: 20px;
 	padding-left: 30px;
+	margin-left: ${(props) => (props.description ? "30%" : "0")};
+	margin-right: ${(props) => (props.description ? "30%" : "0")};
 
 	@media only screen and (max-width: 600px) {
 		font-size: 15px;
+	}
+	@media only screen and (max-width: 1200px) {
+		margin-left: ${(props) => (props.description ? "5%" : "0")};
+		margin-right: ${(props) => (props.description ? "5%" : "0")};
 	}
 `
 
@@ -155,4 +161,10 @@ export const ProjectImg = styled.img`
 		width: 80%;
 		margin-left: 10%;
 	}
+`
+
+export const ContainerProjects = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 `

@@ -1,23 +1,34 @@
 import ecomerce from "../images/ecomerce.png"
 import form from "../images/form.png"
 import tracker from "../images/tracker.png"
-import { ProjectImg, P2 } from "./Styles"
+import { ProjectImg, P, H1, ContainerProjects } from "./Styles"
 export const Projects = () => {
 	return (
-		<div>
-			<P2>My ecomerce</P2>
+		<ContainerProjects>
+			<H1 titulo>My ecomerce</H1>
+
 			<a target="_blank" href="https://gbp12.github.io/ecommerce/">
 				<ProjectImg src={ecomerce} />
 			</a>
-			<P2>My Form</P2>
+			<P description>
+				My ecormerce is a simple emulation of a little shop where we can add to the cart, remove one product, or complete the shopping. I
+				build this with <b>react, redux and styled-components.</b>
+			</P>
+			<H1 titulo>My Form</H1>
 			<a target="_blank" href="https://gbp12.github.io/formulario/">
 				<ProjectImg src={form} />
 			</a>
-			<P2>My Champion Tracker</P2>
+			<P description>
+				This project is just a responsive form build with <b>react, formik, styled-components and Yup</b> for the validations.{" "}
+			</P>
+			<H1 titulo>My Champion Tracker</H1>
 			<a target="_blank" href="https://gbp12.github.io/Champ-Tracker/">
 				<ProjectImg src={tracker} />
 			</a>
-
-		</div>
+			<P description>
+				I created a web app which get all the characters from League of Legends, you can filter them by role, and select yours to find out
+				information about it. Just used <b>React and Styled-components</b>.
+			</P>
+		</ContainerProjects>
 	)
 }
