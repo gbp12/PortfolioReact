@@ -167,4 +167,5 @@ export const ContainerProjects = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 10%;
 `
