@@ -12,6 +12,7 @@ const StyledLink = styled(Link)`
 	:hover {
 		background-color: #fff;
 		color: #231f2d;
+		border-radius: 7px;
 	}
 `
 
