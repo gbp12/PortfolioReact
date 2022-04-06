@@ -37,7 +37,7 @@ export const Header = () => {
 			</DivCentrado>
 
 			<DivSecond>
-				<H1>I´m specialised in</H1>
+				<H1>I´m specialized in</H1>
 				<Skills />
 				<H2>Some of my projects</H2>
 				<Projects />
