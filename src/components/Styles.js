@@ -58,8 +58,8 @@ export const P = styled.p`
 	color: #4b4656;
 	font-size: 20px;
 	padding-left: 30px;
-	margin-left: ${(props) => (props.description ? "30%" : "0")};
-	margin-right: ${(props) => (props.description ? "30%" : "0")};
+	margin-left: ${(props) => (props.description ? "20%" : "0")};
+	margin-right: ${(props) => (props.description ? "20%" : "0")};
 
 	@media only screen and (max-width: 600px) {
 		font-size: 15px;
@@ -96,9 +96,11 @@ export const Img = styled.img`
 
 export const ImgContact = styled(Img)`
 	padding-top: 5px;
+	transition: transform linear 0.3s;
 
 	:hover {
 		cursor: pointer;
+		transform: scale(1.2);
 	}
 	@media only screen and (max-width: 600px) {
 		width: 60px;
@@ -151,8 +153,9 @@ export const TopHeader = styled.div`
 export const ProjectImg = styled.img`
 	width: 500px;
 	border: 5px solid #4b4656;
+	transition: transform linear 0.2s;
+
 	:hover {
-		transition: transform 0.2s linear;
 		transform: scale(1.15);
 	}
 
@@ -167,5 +170,6 @@ export const ContainerProjects = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 10%;
+	text-align: left;
+	margin-bottom: 2%;
 `

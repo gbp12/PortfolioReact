@@ -40,7 +40,7 @@ const Contacto = () => {
 		<div>
 			<P2>You can contact me by:</P2>
 
-			<DivContact>
+			<DivContact className={"animate__animated animate__fadeInDown animate__slow"}>
 				<ImgContact
 					src="https://1000marcas.net/wp-content/uploads/2019/11/logo-Gmail-1.png"
 					onClick={() => {
@@ -53,7 +53,7 @@ const Contacto = () => {
 				</a>
 			</DivContact>
 			<P2>Ó</P2>
-			<DivContact>
+			<DivContact className={"animate__animated animate__fadeInUp animate__slow"}>
 				<a target="blank" href="https://github.com/gbp12">
 					<ImgContact src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />{" "}
 				</a>
