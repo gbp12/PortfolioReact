@@ -1,4 +1,4 @@
-import { Div, Img, Rotation, ImgSkill } from "./Styles"
+import { Div, Img, ImgSkill } from "./Styles"
 
 //logos de las skills
 export const Skills = () => {

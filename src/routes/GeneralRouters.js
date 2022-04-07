@@ -9,8 +9,9 @@ const Generalrouters = () => {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Header />}>
-					<Route index path="*" element={<Main />} />
+					<Route index path="/PortfolioReact" element={<Main />} />
 					<Route path="/contacto" element={<Contacto />} />
+					<Route path="*" element={<h1> Error 404 </h1>} />
 				</Route>
 			</Routes>
 		</BrowserRouter>

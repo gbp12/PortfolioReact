@@ -46,7 +46,7 @@ export const Header = () => {
 				<H3>
 					<StyledLink
 						selected={selected.landing}
-						to={"/main"}
+						to={"/PortfolioReact"}
 						onClick={() => {
 							seleccionnar("landing")
 						}}>

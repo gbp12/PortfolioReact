@@ -111,25 +111,6 @@ export const ImgContact = styled(Img)`
 	}
 `
 
-export const Rotation = styled(Img)`
-	animation-name: rotation;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	animation-duration: 8s;
-	width: 15vw;
-	height: 100%;
-
-	@keyframes rotation {
-		0% {
-			transform: rotate(0deg);
-		}
-		100% {
-			transform: rotate(360deg);
-		}
-	}
-`
-
 export const StyledHeader = styled.header`
 	background-color: #4b4656;
 	width: auto;
