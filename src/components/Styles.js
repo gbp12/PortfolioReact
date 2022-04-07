@@ -82,7 +82,7 @@ export const Div = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	width: 100%;
+	width: 90%;
 `
 
 export const DivContact = styled(Div)`
@@ -91,17 +91,10 @@ export const DivContact = styled(Div)`
 
 export const Img = styled.img`
 	width: 90px;
-	@media only screen and (max-width: 600px) {
-		width: 50px;
-		height: 50px;
-	}
 `
 export const ImgSkill = styled(Img)`
-	width: 4vw;
+	width: 7vw;
 	height: 100%;
-	@media only screen and (max-width: 800px) {
-		width: 8vw;
-	}
 `
 
 export const ImgContact = styled(Img)`
