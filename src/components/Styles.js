@@ -46,7 +46,9 @@ export const H3 = styled.h3`
 `
 
 export const HMain = styled(H3)`
+	margin-bottom: ${(props) => (props.bottom ? "-5vh" : "5%")};
 	margin-top: 5%;
+
 	color: #231f2d;
 	font-size: 30px;
 	@media only screen and (max-width: 500px) {
@@ -78,6 +80,7 @@ export const P2 = styled(P)`
 
 export const Div = styled.div`
 	display: flex;
+	align-items: center;
 	justify-content: space-around;
 	width: 100%;
 `
@@ -91,6 +94,13 @@ export const Img = styled.img`
 	@media only screen and (max-width: 600px) {
 		width: 50px;
 		height: 50px;
+	}
+`
+export const ImgSkill = styled(Img)`
+	width: 4vw;
+	height: 100%;
+	@media only screen and (max-width: 800px) {
+		width: 8vw;
 	}
 `
 
@@ -114,7 +124,8 @@ export const Rotation = styled(Img)`
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	animation-duration: 8s;
-	width: 160px;
+	width: 15vw;
+	height: 100%;
 
 	@keyframes rotation {
 		0% {
@@ -123,10 +134,6 @@ export const Rotation = styled(Img)`
 		100% {
 			transform: rotate(360deg);
 		}
-	}
-
-	@media only screen and (max-width: 600px) {
-		width: 80px;
 	}
 `
 
