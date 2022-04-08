@@ -52,7 +52,6 @@ const Contacto = () => {
 					<ImgContact src="https://logos-marcas.com/wp-content/uploads/2020/04/Linkedin-s%C3%ADmbolo.png" />
 				</a>
 			</DivContact>
-			<P2>Ó</P2>
 			<DivContact className={"animate__animated animate__fadeInUp animate__slow"}>
 				<a target="blank" href="https://github.com/gbp12">
 					<ImgContact src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />{" "}

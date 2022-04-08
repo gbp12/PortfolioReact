@@ -21,15 +21,19 @@ export const Header = () => {
 	const [selected, setselected] = useState({
 		landing: false,
 		contacto: false,
+		questions: false,
 	})
 
 	const seleccionnar = (elemento) => {
 		switch (elemento) {
 			case "landing":
-				setselected({ landing: true, contacto: false })
+				setselected({ landing: true, contacto: false, more: false })
 				break
 			case "contacto":
-				setselected({ landing: false, contacto: true })
+				setselected({ landing: false, contacto: true, more: false })
+				break
+			case "more":
+				setselected({ landing: false, contacto: false, more: true })
 				break
 
 			default:
@@ -41,7 +45,16 @@ export const Header = () => {
 		<div>
 			<TopHeader />
 			<StyledHeader>
-				<H3>Gonzalo Bonilla</H3>
+				<H3>
+					<StyledLink
+						selected={selected.more}
+						to={"/more"}
+						onClick={() => {
+							seleccionnar("more")
+						}}>
+						More About me
+					</StyledLink>
+				</H3>
 
 				<H3>
 					<StyledLink

@@ -25,7 +25,7 @@ export const H1 = styled.h1`
 `
 
 export const H2 = styled(H1)`
-	width: 75%;
+	width: 77%;
 	margin-top: 15%;
 	padding-top: 5px;
 	padding-bottom: 10px;
@@ -81,23 +81,41 @@ export const P2 = styled(P)`
 export const Div = styled.div`
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
-	width: 90%;
+	justify-content: space-between;
+	width: 76%;
+	margin-top: 5vh;
 `
 
 export const DivContact = styled(Div)`
 	margin-top: 20%;
 `
 
-export const Img = styled.img`
-	width: 90px;
+export const DivFlotante = styled.div`
+	color: #fff;
+	background-color: #4b4656;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 2vw;
+	right: 2vw;
+	font-size: 3vw;
+	@media only screen and (max-width: 900px) {
+		font-size: 8vw;
+	}
+	:hover {
+		cursor: pointer;
+	}
 `
-export const ImgSkill = styled(Img)`
+export const ImgSkill = styled.img`
 	width: 7vw;
 	height: 100%;
+	@media only screen and (max-width: 1000px) {
+		width: 12vw;
+	}
 `
 
-export const ImgContact = styled(Img)`
+export const ImgContact = styled.img`
+	width: 90px;
+
 	padding-top: 5px;
 	transition: transform linear 0.3s;
 
@@ -153,4 +171,9 @@ export const ContainerProjects = styled.div`
 	align-items: center;
 	text-align: left;
 	margin-bottom: 2%;
+`
+
+export const DivPreguntas = styled.div`
+	display: flex;
+	flex-direction: column;
 `
