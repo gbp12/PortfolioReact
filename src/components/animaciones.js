@@ -1,0 +1,5 @@
+export const fadeLeft = "animate__animated animate__fadeInLeft "
+export const fadeRight = "animate__animated animate__fadeInRight "
+export const fadeDown = "animate__animated animate__fadeInDown animate__slow"
+export const fadeUp = "animate__animated animate__fadeInUp animate__slow"
+export const fadeIn = "animate__animated animate__fadeIn animate__slow"

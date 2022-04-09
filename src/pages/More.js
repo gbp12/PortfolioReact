@@ -1,32 +1,19 @@
 import { HMain, P, DivPreguntas } from "../components/Styles"
-
+import { fadeLeft, fadeRight } from "../components/animaciones"
 export const More = () => {
-	const aparicion = "animate__animated animate__fadeInLeft animate__fast"
-	const aparicion2 = "animate__animated animate__fadeInRight animate__fast"
-
 	return (
 		<DivPreguntas>
 			<div>
-				<HMain className={aparicion}>What do you do in your free time?</HMain>
-				<P className={aparicion2}>
-					Well, i usually like to be in my house maybe whatching some film or playing games or just hang out with some friends.
+				<HMain className={fadeLeft + " animate__faster"}>What do you do in your free time?</HMain>
+				<P className={fadeRight + " animate__faster"}>
+					Well, i usually like to be in my house maybe watching some film or playing games or just hang out with some friends.
 				</P>
 			</div>
 			<div>
-				<HMain className={aparicion}>what are your professional goals?</HMain>
-				<P className={aparicion2}></P>
-			</div>
-			<div>
-				<HMain className={aparicion}>¿Cual es tu objetivo profesional a largo plazo?</HMain>
-				<P className={aparicion2}> hola mundo</P>
-			</div>
-			<div>
-				<HMain className={aparicion}>¿Cual es tu objetivo profesional a largo plazo?</HMain>
-				<P className={aparicion2}>hola mundo</P>
-			</div>
-			<div>
-				<HMain className={aparicion}>¿Cual es tu objetivo profesional a largo plazo?</HMain>
-				<P>hola mundo</P>
+				<HMain className={fadeLeft + " animate__faster"}>which are your soft skills?</HMain>
+				<P className={fadeRight + " animate__faster"}>
+					Actually i think that i'm a pretty good communicator, also i'm creative and i feel pretty well working in teams.
+				</P>
 			</div>
 		</DivPreguntas>
 	)

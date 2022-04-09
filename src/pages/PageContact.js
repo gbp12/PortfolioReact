@@ -1,6 +1,7 @@
 import { ImgContact, DivContact, P2 } from "../components/Styles"
 import { useState } from "react"
 import styled from "styled-components"
+import { fadeDown, fadeUp } from "../components/animaciones"
 
 var mail = "Mail me at gonzalobonilla2709@gmail.com"
 var discord = "Message me in discord: Gonsalo#9106"
@@ -40,7 +41,7 @@ const Contacto = () => {
 		<div>
 			<P2>You can contact me by:</P2>
 
-			<DivContact className={"animate__animated animate__fadeInDown animate__slow"}>
+			<DivContact className={fadeDown}>
 				<ImgContact
 					src="https://1000marcas.net/wp-content/uploads/2019/11/logo-Gmail-1.png"
 					onClick={() => {
@@ -52,7 +53,7 @@ const Contacto = () => {
 					<ImgContact src="https://logos-marcas.com/wp-content/uploads/2020/04/Linkedin-s%C3%ADmbolo.png" />
 				</a>
 			</DivContact>
-			<DivContact className={"animate__animated animate__fadeInUp animate__slow"}>
+			<DivContact className={fadeUp}>
 				<a target="blank" href="https://github.com/gbp12">
 					<ImgContact src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />{" "}
 				</a>

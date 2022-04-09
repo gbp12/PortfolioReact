@@ -91,13 +91,14 @@ export const DivContact = styled(Div)`
 `
 
 export const DivFlotante = styled.div`
+	display: ${(props) => (props.visible ? "inline" : "none")};
 	color: #fff;
 	background-color: #4b4656;
-	border-radius: 50%;
+	border-radius: 20%;
 	position: fixed;
 	bottom: 2vw;
 	right: 2vw;
-	font-size: 3vw;
+	font-size: 2vw;
 	@media only screen and (max-width: 900px) {
 		font-size: 8vw;
 	}
@@ -170,7 +171,7 @@ export const ContainerProjects = styled.div`
 	flex-direction: column;
 	align-items: center;
 	text-align: left;
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 `
 
 export const DivPreguntas = styled.div`
