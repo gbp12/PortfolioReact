@@ -19,7 +19,7 @@ const StyledLink = styled(Link)`
 
 export const Header = () => {
 	const [selected, setselected] = useState({
-		landing: false,
+		landing: true,
 		contacto: false,
 		questions: false,
 	})
