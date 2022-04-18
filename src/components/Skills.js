@@ -50,7 +50,7 @@ export const Skills = () => {
 				/>
 				<ImgSkill
 					className={fadeRight + " animate__slower animate__delay-2s"}
-					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJci6CMvZC_4J1CEhCjoTY4E8wL-jA0qPP-h561-y_RXPDBYKSgxkKPEL7VWPR8KGBgu4&usqp=CAU"
+					src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fraw.githubusercontent.com%2Freactjs%2Fredux%2Fmaster%2Flogo%2Flogo.png&f=1&nofb=1"
 				/>
 				<ImgSkill
 					className={fadeRight + " animate__slower animate__delay-3s"}

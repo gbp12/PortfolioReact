@@ -52,7 +52,7 @@ export const Header = () => {
 						onClick={() => {
 							seleccionnar("more")
 						}}>
-						More About me
+						About me
 					</StyledLink>
 				</H3>
 

@@ -13,7 +13,7 @@ export const DivSecond = styled.div`
 `
 
 export const H1 = styled.h1`
-	background-color: ${(props) => (props.titulo ? "#fff" : "#4b4656")};
+	background-color: ${(props) => (props.titulo ? "none" : "#4b4656")};
 	color: ${(props) => (props.titulo ? "#4b4656" : "#fff")};
 	width: 55%;
 	text-align: center;
@@ -87,7 +87,8 @@ export const Div = styled.div`
 `
 
 export const DivContact = styled(Div)`
-	margin-top: 20%;
+	margin-left: 8%;
+	margin-top: 25%;
 `
 
 export const DivFlotante = styled.div`
@@ -136,6 +137,9 @@ export const StyledHeader = styled.header`
 	display: flex;
 	justify-content: space-around;
 	position: relative;
+	@media only screen and (max-width: 800px) {
+		justify-content: space-between;
+	}
 `
 
 export const DivCentrado = styled.div`
